@@ -28,7 +28,7 @@ header {
 }
 
 .container {
-    width: 1312px;
+    width: 1313px;
     margin: auto;
 
 }
@@ -125,6 +125,9 @@ button {
     }
 
     .recipes-cards {
+        display: flex;
+        gap: 16px;
+        flex-wrap: wrap ;
         .card {
             width: 427px;
             border-radius: 24px;
@@ -186,72 +189,3 @@ button {
 
 /* hero css */
 
-.hero {
-    padding: 120px 0;
-    text-align: center;
-    background-image: url(/hero.png);
-    border-radius: 12px;
-
-    .hero-content {
-        width: 869px;
-        margin: auto;
-
-        h1 {
-            font-size: 80px;
-            margin-bottom: 12px;
-            font-family: "Montserrat", serif;
-            color: white;
-        }
-
-        p {
-            width: 418px;
-            margin: auto;
-            font-size: 21px;
-            margin-bottom: 40px;
-            color: white;
-        }
-
-        button {}
-
-        .hero-btn {
-            background-color: #F29C33;
-            color: black;
-        }
-    }
-}
-
-/* menu css */
-
-.menu {
-    background-color: #C4E5FC;
-    padding: 40px;
-    border-radius: 32px;
-    margin-top: 16px;
-    display: flex;
-    justify-content: space-between;
-
-    .menu-text {
-        width: 494px;
-        button.menu-btn1 {
-            margin-bottom: 20px;
-        }
-
-        button.menu-btn2 {}
-
-        h3 {}
-
-        p {}
-    }
-
-    .menu-items {
-        width: 494px;
-        div {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            img {}
-
-            h4 {}
-        }
-    }
-}
